@@ -1,4 +1,4 @@
-body{
+body {
     display: border-box;
     margin: 0;
     padding: 0;
@@ -13,51 +13,62 @@ body{
     width: 100vw;
     height: 100vh;
     padding-bottom: 112px;
-    padding-top: 72px;
+    /* padding-top: 72px; */
+
 }
 
-.main-card{
-    margin: 0 90px auto;
+.main-card {
+    /* display: inline; */
+    margin: auto;
     padding: 20px 0;
-    /* position: relative; */
-    width: 980px;
+    position: relative;
+    /* background-color: #42b72a; */
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: wrap;
+    justify-content: space-around;
+    width: 90%;
+
+
 }
 
-.fb-logo{
+
+
+.left-in-card {
+    padding-right: 0px;
+
+
+
+}
+
+
+.right-in-card {
+    /* background-color: aqua; */
+    height: 456px;
+    width: 396px;
+    text-align: center;
+
+}
+
+.fb-logo {
     width: 300px;
     height: 106px;
     padding: 112px 0 16px;
-    object-position: left;
-
 }
 
-h1{
+h1 {
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
     font-size: 28px;
     font-weight: normal;
     line-height: 32px;
-    width: 500px;
+    width: 350px;
     color: #1c1e21;
     padding-left: 30px;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
     margin: 0;
 }
 
-.left-in-card{
-    padding-right: 50px;
-}
 
-
-.right-in-card{
-    /* background-color: aqua; */
-    position: relative;
-    height: 456px;
-    width: 396px;
-}
-
-.card{
+.card {
     align-items: center;
     background-color: #fff;
     border: none;
@@ -65,21 +76,123 @@ h1{
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
     box-sizing: border-box;
     margin: 40px 0 0;
-    padding: 20px 0 28px;
-    width: 396px
+    padding: 20px 0 10px;
+    width: 396px;
+
 }
 
-.form-card{
+.form-card {
     padding: 20px 0;
     margin: auto;
+
 }
 
-form{
-    text-align: center;
+
+input {
+    font-family: inherit;
+    margin: 0 auto;
+    margin: 6px 0;
+    width: 320px;
+    height: 28px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    font-size: 17px;
+    padding: 14px 16px;
+
 }
 
-input{
-    margin: auto;
-   margin: 6px 0;
+.button-login button {
+    color: #fff;
+    margin: 12px 0;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 355px;
+    cursor: pointer;
+}
+
+.acard {
+    margin: 12px 0;
+
+}
+
+a {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+hr {
+    margin: 20px 16px;
+    border: 1px solid #dddfe2;
+
+}
+
+.button-createpws button {
+    color: #fff;
+    margin: 12px 0;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 240px;
+    cursor: pointer;
+}
+
+.button-createpws button:hover {
+    background-color: #37ae1f;
+    color: #ececec;
+
+
+}
+
+
+.creat-page {
+    margin: 24px 0;
+
+}
+
+.creat-page a {
+
+    color: #1c1e21;
+    text-decoration: none;
+
+}
+
+.creat-page a:hover {
+    text-decoration: underline;
+}
+
+.language-footer a {
+    padding: 0 4px;
+}
+
+
+@media (max-width: 900px) {
+    .left-in-card {
+        padding-right: 50px;
+        text-align: center;
+
+    }
+
+    .fb-logo {
+        margin: auto;
+        padding: 0px 0 16px;
+        padding-left: 30px;
+    }
+
+    .main {
+
+        /* background: #f0f2f5;
+        min-width: 500px;
+        width: 100vw;
+        height: 100vh; */
+        padding-bottom: 360px;
+
+    }
 
 }

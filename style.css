@@ -1,0 +1,85 @@
+body{
+    display: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+
+}
+
+
+.main {
+    background: #f0f2f5;
+    min-width: 500px;
+    width: 100vw;
+    height: 100vh;
+    padding-bottom: 112px;
+    padding-top: 72px;
+}
+
+.main-card{
+    margin: 0 90px auto;
+    padding: 20px 0;
+    /* position: relative; */
+    width: 980px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fb-logo{
+    width: 300px;
+    height: 106px;
+    padding: 112px 0 16px;
+    object-position: left;
+
+}
+
+h1{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    color: #1c1e21;
+    padding-left: 30px;
+    padding-bottom: 20px; 
+    margin: 0;
+}
+
+.left-in-card{
+    padding-right: 50px;
+}
+
+
+.right-in-card{
+    /* background-color: aqua; */
+    position: relative;
+    height: 456px;
+    width: 396px;
+}
+
+.card{
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px
+}
+
+.form-card{
+    padding: 20px 0;
+    margin: auto;
+}
+
+form{
+    text-align: center;
+}
+
+input{
+    margin: auto;
+   margin: 6px 0;
+
+}
